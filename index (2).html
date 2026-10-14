@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nikah Mubarak, Abrar &amp; Aliya</title>
+<meta name="description" content="Two souls, one sacred promise. A Nikah Mubarak celebration for Abrar &amp; Aliya.">
+<meta name="theme-color" content="#062D26">
+<meta property="og:title" content="Nikah Mubarak, Abrar &amp; Aliya">
+<meta property="og:description" content="Two souls, one sacred promise, and a beautiful journey written with the blessings of Allah.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23062D26'/%3E%3Cpath d='M32 8l6 18 18 6-18 6-6 18-6-18-18-6 18-6z' fill='%23D6B36A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Amiri:wght@400;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--me:#062D26;--fg:#0A4034;--gold:#D6B36A;--ch:#F1DDAA;--pa:#F7F0DF;--nb:#031B17;--dg:#7d5f22;--serif:"Cormorant Garamond",Georgia,serif;--ar:"Amiri","Traditional Arabic",serif;--sans:Jost,system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);font-weight:300;background:var(--nb);color:var(--pa);line-height:1.85;overflow-x:hidden}
+body.lock{overflow:hidden}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(2.3rem,8vw,4.2rem);line-height:1.1;color:var(--ch)}
+p{font-size:clamp(1.02rem,3.6vw,1.15rem);margin-bottom:1.2rem}
+.lab{font-size:.72rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold);font-weight:400;margin-bottom:1rem;display:block}
+.ar{font-family:var(--ar);direction:rtl;font-weight:400}
+section{position:relative;padding:6rem 1.5rem;overflow:hidden}
+.w{max-width:38rem;margin:auto;position:relative;z-index:2}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+svg.ico{fill:none;stroke:var(--gold);stroke-width:2.5}
+.btn{font:400 .8rem var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--ch);background:transparent;border:1px solid var(--gold);padding:1rem 2rem;cursor:pointer;transition:.4s;position:relative}
+.btn:hover{background:var(--gold);color:var(--me)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity 1.3s,transform 1.3s}
+.rv.v{opacity:1;transform:none}
+.rv.sl{transition-duration:2.2s}
+.stars i{position:absolute;width:2px;height:2px;border-radius:50%;background:var(--ch);animation:tw 4s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.15}to{opacity:1}}
+@keyframes up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+/* nav */
+#nav{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.2rem;background:linear-gradient(var(--nb),transparent)}
+#nav svg{width:34px;height:37px}
+#mb{background:none;border:1px solid rgba(214,179,106,.5);color:var(--ch);font:400 .7rem var(--sans);letter-spacing:.25em;padding:.5rem .9rem;cursor:pointer}
+#ml{position:fixed;inset:0;z-index:29;background:rgba(3,27,23,.97);display:none;flex-direction:column;align-items:center;justify-content:center;gap:1.6rem}
+#ml.o{display:flex}
+#ml a{font:italic 500 2rem var(--serif);color:var(--ch);text-decoration:none}
+/* intro */
+#intro{position:fixed;inset:0;z-index:50;background:radial-gradient(ellipse at 50% 35%,var(--fg),var(--me) 55%,var(--nb));display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1.5rem;transition:opacity 1.2s,visibility 1.2s;overflow:hidden}
+#intro.out{opacity:0;visibility:hidden}
+#intro>*{position:relative;z-index:2;animation:up 1.6s both}
+#intro .a1{animation-delay:.3s}#intro .a2{animation-delay:.9s}#intro .a3{animation-delay:1.5s}#intro .a4{animation-delay:2.1s}#intro .a5{animation-delay:2.7s}
+.moon{width:70px;height:70px;filter:drop-shadow(0 0 18px rgba(241,221,170,.55))}
+.mono{width:min(40vw,9rem);height:auto;margin:.4rem 0}
+#intro .ar{font-size:clamp(1.6rem,6vw,2.2rem);color:var(--ch)}
+#intro h1{font:italic 400 clamp(2.4rem,10vw,4.2rem)/1.1 var(--serif);color:var(--ch);margin:.3rem 0 1rem}
+#intro p.s{max-width:26rem;font-family:var(--serif);font-style:italic;font-size:1.2rem;opacity:.9}
+#skip{position:absolute;top:1rem;right:1rem;z-index:3;background:none;border:0;color:var(--gold);font:400 .7rem var(--sans);letter-spacing:.25em;cursor:pointer;opacity:.8}
+/* invitation */
+#inv{background:var(--pa);color:var(--me);padding:6rem 1.5rem}
+#inv .arch{max-width:36rem;margin:auto;border:1px solid var(--gold);border-radius:999px 999px 0 0;padding:6rem 1.8rem 3rem;outline:6px solid var(--me);outline-offset:-1px;box-shadow:0 0 0 7px var(--gold);text-align:center;position:relative}
+#inv h2{color:var(--me)}#inv .lab{color:var(--dg)}
+#inv p{font-family:var(--serif);font-size:clamp(1.2rem,4vw,1.35rem)}
+#inv .st{width:34px;margin:0 auto 1.2rem;display:block}
+/* abrar */
+#abrar{background:linear-gradient(var(--me),var(--fg))}
+#abrar .big{position:absolute;right:-4rem;top:1rem;font:500 26rem/1 var(--serif);color:var(--gold);opacity:.08;pointer-events:none}
+#abrar .ln{position:absolute;inset:2rem;border:1px solid rgba(214,179,106,.25);pointer-events:none}
+#abrar h2{font-size:clamp(3rem,12vw,6rem);margin-bottom:2rem}
+/* aliya */
+#aliya{background:var(--pa);color:var(--me)}
+#aliya .fr{max-width:38rem;margin:auto;border:1px solid var(--dg);padding:3.5rem 1.6rem 2rem;position:relative}
+#aliya .fr:before{content:"";position:absolute;inset:6px;border:1px solid rgba(125,95,34,.4);pointer-events:none}
+#aliya h2{color:var(--me);text-align:center;margin-bottom:1.6rem}
+#aliya .lab{color:var(--dg);text-align:center}
+#aliya p{font-family:var(--serif);font-size:clamp(1.2rem,4vw,1.35rem)}
+#aliya .ar2{display:block;width:90px;margin:0 auto 1rem}
+/* pillars */
+#pil{background:var(--nb)}
+#pil h2{text-align:center;margin-bottom:4rem}
+.pg{max-width:60rem;margin:auto;display:grid;gap:3rem 4rem;grid-template-columns:1fr}
+.pi{border-top:1px solid var(--gold);padding-top:1.2rem;position:relative}
+.pi .num{font:italic 400 5rem/1 var(--serif);color:var(--gold);opacity:.35}
+.pi svg{position:absolute;right:0;top:1rem;width:44px;height:44px}
+.pi h3{font:500 .85rem var(--sans);letter-spacing:.35em;color:var(--ch);margin:.6rem 0}
+.pi h3 span{color:var(--gold)}
+.pi p{font:italic 400 1.35rem/1.5 var(--serif);margin:0}
+@media(min-width:760px){.pg{grid-template-columns:1fr 1fr}.pi:nth-child(even){margin-top:5rem}}
+/* quran */
+#qur{background:radial-gradient(ellipse at 50% 0,var(--fg),var(--me) 70%);text-align:center}
+.qa{max-width:36rem;margin:auto;border:1px solid var(--gold);border-radius:999px 999px 0 0;padding:6rem 1.6rem 3rem;position:relative;box-shadow:inset 0 0 60px rgba(214,179,106,.12)}
+.qa:before{content:"";position:absolute;inset:8px;border:1px solid rgba(214,179,106,.3);border-radius:999px 999px 0 0;pointer-events:none}
+#qur .ar{font-size:clamp(1.8rem,6.5vw,2.5rem);line-height:2.2;color:var(--ch)}
+#qur .tr{color:var(--gold);font-style:italic}
+.dv{width:60px;height:1px;background:var(--gold);margin:2rem auto}
+/* night */
+#night{background:linear-gradient(var(--nb),var(--me) 80%,var(--fg));text-align:center;padding-bottom:9rem}
+#night .moon{width:110px;height:110px;margin-bottom:1.5rem}
+#night h2{margin-bottom:3rem}
+#night p{font:italic 400 clamp(1.3rem,4.6vw,1.7rem)/1.6 var(--serif);margin-bottom:2.2rem;color:var(--pa)}
+#night p.end{color:var(--gold);font-style:normal;letter-spacing:.06em;margin-top:3rem}
+.sky{position:absolute;left:0;bottom:0;width:100%;height:110px;fill:var(--nb);display:block;z-index:1}
+/* letter */
+#ltr{background:var(--nb);text-align:center}
+.env{position:relative;width:min(84vw,22rem);height:14rem;margin:2rem auto;background:var(--me);border:1px solid var(--gold);display:block;cursor:pointer;padding:0}
+.env .fl{position:absolute;top:0;left:0;right:0;height:7.5rem;background:var(--fg);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform 1s;z-index:3;border-top:1px solid var(--gold)}
+.env .sealb{position:absolute;left:50%;top:5.6rem;width:46px;height:46px;margin-left:-23px;z-index:4;transition:opacity .6s,transform .6s;filter:drop-shadow(0 0 10px rgba(214,179,106,.6))}
+.env.open .fl{transform:rotateX(180deg);z-index:1}
+.env.open .sealb{opacity:0;transform:scale(1.8)}
+.lt{max-height:0;opacity:0;overflow:hidden;transition:max-height 1.6s,opacity 1.4s;max-width:38rem;margin:0 auto;text-align:left}
+.lt.open{max-height:90rem;opacity:1}
+.lt div{background:var(--pa);color:var(--me);padding:2.4rem 1.6rem;border:1px solid var(--gold);outline:5px solid var(--pa);outline-offset:-12px;margin-top:1rem}
+.lt p{font-family:var(--serif);font-size:1.25rem}
+.lt .sig{font-style:italic;margin:0}
+.spark{width:44px;margin:1.5rem auto 0;display:none;animation:spin 8s linear infinite}
+.spark.show{display:block}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* final */
+#fin{background:radial-gradient(ellipse at 50% 100%,var(--fg),var(--me) 60%,var(--nb));text-align:center;padding:7rem 1.5rem 3rem}
+#fin .mono{width:min(46vw,11rem);margin:0 auto 1.5rem;display:block}
+#fin h2{margin:.4rem 0 1.5rem}
+#fin p.big{font:italic 400 clamp(1.3rem,4.6vw,1.6rem)/1.6 var(--serif)}
+#fin .dua{font-family:var(--serif);font-size:1.3rem;color:var(--gold)}
+.ft{margin-top:3.5rem;font-size:.8rem;opacity:.7;letter-spacing:.08em}
+#cur{position:fixed;width:26px;height:26px;border:1px solid var(--gold);border-radius:50%;pointer-events:none;z-index:99;opacity:0;transition:opacity .3s,width .2s,height .2s;margin:-13px 0 0 -13px}
+#toast{position:fixed;left:50%;bottom:1.5rem;transform:translate(-50%,30px);background:var(--gold);color:var(--me);padding:.6rem 1.4rem;opacity:0;transition:.4s;z-index:60;font-size:.85rem}
+#toast.s{opacity:1;transform:translate(-50%,0)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv,#intro>*{opacity:1;transform:none}.stars i{opacity:.7}}
+</style>
+</head>
+<body class="lock">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1DDAA"/><stop offset=".5" stop-color="#D6B36A"/><stop offset="1" stop-color="#a98539"/></linearGradient>
+<symbol id="s8" viewBox="0 0 100 100"><rect x="22" y="22" width="56" height="56"/><rect x="22" y="22" width="56" height="56" transform="rotate(45 50 50)"/></symbol>
+<symbol id="mn" viewBox="0 0 100 100"><mask id="mk"><rect width="100" height="100" fill="#fff"/><circle cx="64" cy="42" r="32" fill="#000"/></mask><circle cx="50" cy="54" r="36" fill="url(#gd)" mask="url(#mk)"/></symbol>
+<symbol id="cd" viewBox="0 0 100 100"><circle cx="50" cy="50" r="36"/><circle cx="50" cy="50" r="22"/><circle cx="50" cy="50" r="8"/></symbol>
+<symbol id="ac" viewBox="0 0 100 100"><path d="M20 92V50C20 30 44 24 50 6C56 24 80 30 80 50V92M34 92V54C34 42 46 38 50 26C54 38 66 42 66 54V92"/></symbol>
+<symbol id="aa" viewBox="0 0 200 220">
+<path d="M24 212V98C24 56 84 40 100 6C116 40 176 56 176 98V212Z" fill="#062D26" stroke="url(#gd)" stroke-width="3"/>
+<path d="M36 206V100C36 64 88 50 100 24C112 50 164 64 164 100V206Z" fill="none" stroke="#D6B36A" stroke-width="1" opacity=".6"/>
+<use href="#s8" x="78" y="38" width="44" height="44" fill="none" stroke="#D6B36A" stroke-width="3"/>
+<text x="76" y="182" text-anchor="middle" font-family="Cormorant Garamond,Georgia,serif" font-size="108" font-weight="600" fill="url(#gd)">A</text>
+<text x="124" y="182" text-anchor="middle" font-family="Cormorant Garamond,Georgia,serif" font-size="108" font-weight="600" fill="#F1DDAA" stroke="#062D26" stroke-width="3" paint-order="stroke">A</text>
+</symbol>
+</defs></svg>
+<div id="cur" aria-hidden="true"></div>
+
+<div id="intro">
+<button id="skip">SKIP</button>
+<div class="stars" id="is" aria-hidden="true" style="position:absolute;inset:0;z-index:1"></div>
+<svg class="moon a1" aria-hidden="true"><use href="#mn"/></svg>
+<svg class="mono a2" role="img" aria-label="A and A royal monogram for Abrar and Aliya"><use href="#aa"/></svg>
+<p class="ar a3" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+<div class="a4"><span class="lab">A Blessed Beginning</span><span class="lab" style="color:var(--ch)">Nikah Mubarak</span>
+<h1>Abrar &amp; Aliya</h1></div>
+<div class="a5"><p class="s">Two souls, one sacred promise, and a beautiful journey written with the blessings of Allah.</p>
+<button class="btn" id="enter">Enter the Celebration</button></div>
+</div>
+
+<nav id="nav" aria-label="Main">
+<svg aria-hidden="true"><use href="#aa"/></svg>
+<button id="mb" aria-expanded="false" aria-controls="ml">MENU</button>
+</nav>
+<div id="ml">
+<a href="#inv">Invitation</a><a href="#abrar">Abrar</a><a href="#aliya">Aliya</a><a href="#pil">Four Pillars</a><a href="#qur">Blessings</a><a href="#ltr">The Letter</a>
+</div>
+
+<main>
+<section id="inv"><div class="arch rv">
+<svg class="st ico" aria-hidden="true" viewBox="0 0 100 100" style="stroke:var(--dg)"><use href="#s8"/></svg>
+<span class="lab">The Invitation</span>
+<h2>A New Chapter Begins</h2><div class="dv" style="background:var(--dg)"></div>
+<p>With hearts full of gratitude and prayers for a beautiful future, we celebrate the union of Abrar and Aliya.</p>
+<p>A Nikah is more than a ceremony. It is a sacred promise to walk beside one another with kindness, patience, respect, and faith.</p>
+<p>Today marks the beginning of a new chapter — one filled with opportunities to grow together, discover new joys, overcome challenges as a team, and build a home where love and mercy always have a place.</p>
+<p>May this beautiful beginning open the door to a lifetime of blessings.</p>
+</div></section>
+
+<section id="abrar"><span class="big" aria-hidden="true">A</span><div class="ln"></div>
+<div class="w rv"><span class="lab">A Message</span><h2>To Abrar</h2>
+<p>May you always be a source of comfort, strength, and kindness for Aliya.</p>
+<p>May you listen with patience, love with sincerity, lead with compassion, and build a life in which both of you feel valued, respected, and supported.</p>
+<p>May Allah give you wisdom during difficult moments, gratitude during happy ones, and the patience to face every chapter of life together.</p>
+<p>May your home become a place of peace, your companionship a source of strength, and your marriage a beautiful reflection of mercy and understanding.</p>
+<p>May you become not only a loving husband but also a lifelong friend to the person with whom you are building your future.</p></div></section>
+
+<section id="aliya"><div class="fr rv">
+<svg class="ar2 ico" aria-hidden="true" viewBox="0 0 100 100" style="stroke:var(--dg);height:90px"><use href="#ac"/></svg>
+<span class="lab">A Message</span><h2>To Our Beautiful Aliya</h2>
+<p>May your new journey be filled with the kind of happiness that lives in the little things — thoughtful words, shared laughter, peaceful evenings, and the comfort of knowing someone is always standing beside you.</p>
+<p>May Abrar cherish your individuality, respect your dreams, celebrate your achievements, and support you through every season of life.</p>
+<p>May you always feel heard, appreciated, and loved. May your home be a sanctuary of tranquility, and may your heart find countless reasons to be grateful.</p>
+<p>May Allah surround your marriage with mercy, fill your days with barakah, and grant you a future even more beautiful than the one you imagine.</p>
+<p>Today is the beginning of a new chapter, and may every page bring something worth thanking Allah for.</p>
+</div></section>
+
+<section id="pil"><span class="lab" style="text-align:center">The Art of a Beautiful Marriage</span>
+<h2>Four Pillars of a Beautiful Life</h2>
+<div class="pg">
+<div class="pi rv"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#s8"/></svg><div class="num">01</div><h3>RAHMAH <span>|</span> MERCY</h3><p>May kindness guide your words and compassion guide your hearts.</p></div>
+<div class="pi rv"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#ac"/></svg><div class="num">02</div><h3>SAKINAH <span>|</span> TRANQUILITY</h3><p>May your home be a place where both hearts find peace and belonging.</p></div>
+<div class="pi rv"><svg class="ico" viewBox="0 0 100 100" aria-hidden="true"><use href="#cd"/></svg><div class="num">03</div><h3>MAWADDAH <span>|</span> AFFECTION</h3><p>May love be visible in the smallest gestures and strongest in difficult moments.</p></div>
+<div class="pi rv"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mn"/></svg><div class="num">04</div><h3>BARAKAH <span>|</span> BLESSINGS</h3><p>May Allah place goodness, gratitude, and lasting blessings in every chapter of your life.</p></div>
+</div></section>
+
+<section id="qur"><div class="qa rv">
+<span class="lab">Quranic Wisdom</span>
+<p class="ar" lang="ar">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+<span class="lab" style="margin:0">Surah Ar-Rum — 30:21</span>
+<p style="font-family:var(--serif);font-style:italic;font-size:1.25rem;margin-top:1rem">And among His signs is that He created for you spouses from among yourselves so that you may find comfort in them, and He has placed between you affection and mercy.</p>
+<div class="dv"></div>
+<p class="ar" lang="ar">بَارَكَ اللَّهُ لَكَ، وَبَارَكَ عَلَيْكَ، وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
+<p class="tr">Barakallahu laka, wa baraka 'alayka, wa jama'a baynakuma fi khayr.</p>
+<p style="font-family:var(--serif);font-size:1.2rem;margin:0">May Allah bless you, shower His blessings upon you, and unite you both in goodness.</p>
+</div></section>
+
+<section id="night"><div class="stars" id="ns" aria-hidden="true" style="position:absolute;inset:0"></div>
+<div class="w"><svg class="moon rv" aria-hidden="true"><use href="#mn"/></svg>
+<h2 class="rv">May Your Story Be Written in Blessings</h2>
+<p class="rv sl">May the days ahead bring you reasons to smile.</p>
+<p class="rv sl">May the difficult days teach you to stand closer together.</p>
+<p class="rv sl">May every disagreement end with understanding.</p>
+<p class="rv sl">May every achievement become a shared celebration.</p>
+<p class="rv sl">May every prayer bring you closer to Allah.</p>
+<p class="rv sl">And may every passing year remind you how fortunate you are to have found a companion with whom to share this life.</p>
+<p class="rv sl end">Two hearts. One promise. A lifetime of barakah.</p></div>
+<svg class="sky" viewBox="0 0 400 110" preserveAspectRatio="none" aria-hidden="true"><path d="M0 110V76H26V40L30 22L34 40V76H66Q96 14 126 76H166V110ZM400 110V76H374V40L370 22L366 40V76H334Q304 14 274 76H234V110ZM166 110V88H234V110Z"/></svg></section>
+
+<section id="ltr"><div class="w rv">
+<span class="lab">A Royal Letter</span><h2>A Sealed Message</h2>
+<button class="env" id="env" aria-expanded="false" aria-controls="lt" aria-label="Unseal a special message">
+<span class="fl"></span>
+<svg class="sealb" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" fill="#D6B36A"/><use href="#s8" fill="none" stroke="#062D26" stroke-width="5"/></svg></button>
+<button class="btn" id="tog">Unseal a Special Message</button>
+<div class="lt" id="lt" role="region" aria-label="Letter"><div>
+<p>Dear Abrar and Aliya,</p>
+<p>Some gifts are not measured by their size, but by the love behind them.</p>
+<p>As you begin this beautiful journey together, may you always remember that a strong marriage is built through the little things: the patience to listen, the courage to forgive, the willingness to grow, and the choice to stand beside each other every day.</p>
+<p>May Allah protect your bond, bless your home, increase the love and understanding between you, and grant you a future filled with happiness and peace.</p>
+<p>May you share countless beautiful memories in this world and be reunited in Jannatul Firdaus.</p>
+<p>Ameen.</p>
+<p class="sig">With love and heartfelt duas.</p>
+</div></div>
+<svg class="spark ico" id="sp" viewBox="0 0 100 100" aria-hidden="true"><use href="#s8"/></svg>
+</div></section>
+
+<section id="fin"><div class="stars" id="fs" aria-hidden="true" style="position:absolute;inset:0"></div>
+<div class="w rv">
+<svg class="mono" role="img" aria-label="A and A monogram"><use href="#aa"/></svg>
+<span class="lab">For a Lifetime, In Sha Allah</span>
+<h2>ABRAR &amp; ALIYA</h2>
+<p class="big">May Allah bless your union with mercy, tranquility, and endless barakah.</p>
+<p>May your love grow through every season, your faith guide every decision, and your home remain a place of peace in this world and the next.</p>
+<p class="dua">May Allah keep you together in goodness and reunite you in Jannatul Firdaus. Ameen.</p>
+<div style="margin-top:2.2rem"><button class="btn" id="share">Share This Gift</button></div>
+<p class="ft">Created with love and heartfelt duas for Abrar &amp; Aliya.</p>
+</div></section>
+</main>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const $=s=>document.querySelector(s),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function stars(id,n){const c=$(id);for(let i=0;i<n;i++){const s=document.createElement('i'),z=Math.random()<.2?3:2;s.style.cssText=`left:${Math.random()*100}%;top:${Math.random()*100}%;width:${z}px;height:${z}px;animation-delay:${-Math.random()*4}s;animation-duration:${3+Math.random()*4}s`;c.appendChild(s)}}
+stars('#is',45);stars('#ns',40);stars('#fs',30);
+function enter(){$('#intro').classList.add('out');document.body.classList.remove('lock');scrollTo(0,0)}
+$('#enter').onclick=enter;$('#skip').onclick=enter;
+const ml=$('#ml'),mb=$('#mb');
+mb.onclick=()=>{const o=ml.classList.toggle('o');mb.setAttribute('aria-expanded',o);mb.textContent=o?'CLOSE':'MENU'};
+ml.onclick=e=>{if(e.target.tagName=='A'){ml.classList.remove('o');mb.textContent='MENU';mb.setAttribute('aria-expanded',false)}};
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('v');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+function env(){const o=$('#env').classList.toggle('open');$('#lt').classList.toggle('open',o);$('#sp').classList.toggle('show',o);$('#env').setAttribute('aria-expanded',o);$('#tog').textContent=o?'Close the Letter':'Unseal a Special Message'}
+$('#env').onclick=env;$('#tog').onclick=env;
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('s');setTimeout(()=>e.classList.remove('s'),2400)}
+$('#share').onclick=async()=>{
+  const d={title:'Nikah Mubarak, Abrar & Aliya',text:'A little surprise for Abrar & Aliya',url:location.href};
+  try{if(navigator.share){await navigator.share(d);return}await navigator.clipboard.writeText(d.url);toast('Link copied')}
+  catch(e){if(e.name!=='AbortError'){const t=document.createElement('textarea');t.value=d.url;document.body.appendChild(t);t.select();try{document.execCommand('copy');toast('Link copied')}catch(_){toast('Copy the link from the address bar')}t.remove()}}
+};
+if(matchMedia('(hover:hover) and (pointer:fine)').matches&&!rm){const c=$('#cur');
+  addEventListener('mousemove',e=>{c.style.opacity=1;c.style.transform=`translate(${e.clientX}px,${e.clientY}px)`});
+  document.addEventListener('mouseover',e=>{const b=e.target.closest('button,a');c.style.width=c.style.height=b?'44px':'26px';c.style.margin=b?'-22px 0 0 -22px':'-13px 0 0 -13px'})}
+</script>
+</body>
+</html>
